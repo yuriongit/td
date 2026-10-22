@@ -8,8 +8,8 @@ package tasks
 import (
 	"context"
 
-	"github.com/yuriongit/tday/internal/app"
-	"github.com/yuriongit/tday/internal/ui"
+	"github.com/yuriongit/td/internal/app"
+	"github.com/yuriongit/td/internal/ui"
 )
 
 // ListAll lists all persisted tasks.

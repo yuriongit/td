@@ -1,14 +1,14 @@
-# TDay
+# Td
 
-TDay, pronounced as _"**Today**"_, is a simple and straight-forward command-line
-tool for task management.
+Td, "today", is a simple and straight-forward command-line
+tool for my task management.
 
-_TDay was built for my personal use for keep tracking of what I need done for
+_Td was built for my personal use for keep tracking of what I need done for
 the day._
 
 ## Features
 
-1. Initializes the global configuration directory `~/.tday` with a prepared .env
+1. Initializes the global configuration directory `~/.td` with a prepared .env
    file
 2. Interactive task creation
 3. Interactive task updates
@@ -19,11 +19,11 @@ the day._
 
 ## Configuration
 
-TDay's configuration directory, `~/.tday`, holds environment variables that TDay
+td's configuration directory, `~/.td`, holds environment variables that td
 relies on are stored in the configuration directory. This specifically allows
 enables global usage.
 
-- `~/.tday` directory layout document (coming soon): [/docs/tday.md](./docs/tday.md)
+- `~/.td` directory layout document (coming soon): [/docs/td.md](./docs/td.md)
 
 ## Infrastructure
 
@@ -42,8 +42,8 @@ enables global usage.
 Clone the repo & build the binary:
 
 ```bash
-git clone https://github.com/yuriongit/tday.git
-cd tday
+git clone https://github.com/yuriongit/td.git
+cd td
 go build
 go install
 ```
@@ -51,19 +51,19 @@ go install
 Start:
 
 ```bash
-tday help
+td help
 ```
 
-Init TDay and create a task:
+Init td and create a task:
 
 ```bash
-tday init
-tday new
+td init
+td new
 ```
 
 ## Images
 
-To see a preview of TDay, view the [/docs/preview.md](./docs/preview.md) document.
+To see a preview of td, view the [/docs/preview.md](./docs/preview.md) document.
 
 _Images directory - [/.github/images](./github/images)_
 

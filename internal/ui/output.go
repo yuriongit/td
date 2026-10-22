@@ -1,9 +1,9 @@
 /*
-Package ui provides the UI for TDay.
+Package ui provides the UI for td.
 */
 package ui
 
-import "github.com/yuriongit/tday/internal/domain"
+import "github.com/yuriongit/td/internal/domain"
 
 // TaskOutput defines the structure for task output functions.
 type TaskOutput struct {

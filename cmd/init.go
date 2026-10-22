@@ -1,5 +1,5 @@
 /*
-Package cmd holds all of TDay's commands.
+Package cmd holds all of td's commands.
 
 Copyright © 2026 Yuri Okeren <yuri.dev44@outlook.com>
 */
@@ -7,13 +7,13 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/yuriongit/tday/internal/cnf"
+	"github.com/yuriongit/td/internal/cnf"
 )
 
 // initCmd represents the init command
 var initCmd = &cobra.Command{
 	Use:   "init",
-	Short: "Initializes tday config",
+	Short: "Initializes td config",
 	Long:  `TODO: Implement later`,
 	RunE: func(_ *cobra.Command, _ []string) error {
 		return cnf.InitConfig()
