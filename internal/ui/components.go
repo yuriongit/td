@@ -1,5 +1,5 @@
 /*
-Package ui provides the UI for TDay.
+Package ui provides the UI for td.
 */
 package ui
 

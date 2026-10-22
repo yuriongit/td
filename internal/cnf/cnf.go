@@ -1,6 +1,6 @@
 /*
 Package cnf provides helpers for working
-with TDay's configuration directory.
+with td's configuration directory.
 */
 package cnf
 
@@ -15,14 +15,14 @@ import (
 
 /*
 ChdirToConfigDir changes the current directory
-to TDay's config directory.
+to td's config directory.
 */
 func ChdirToConfigDir() (err error) {
 	if err := constructConfigPath(); err != nil {
 		return err
 	}
 	if err := os.Chdir(configPath); err != nil {
-		return errors.New("config directory not found: run tday init")
+		return errors.New("config directory not found: run td init")
 	}
 
 	return nil
@@ -48,7 +48,7 @@ func GetEnvVariable(varName string) (
 	// Load environment variables from .env file.
 	if err := godotenv.Load(".env"); err != nil {
 		fmt.Println("")
-		return "", fmt.Errorf("Environment variables load error: %w\nMaybe run 'tday init'?", err)
+		return "", fmt.Errorf("Environment variables load error: %w\nMaybe run 'td init'?", err)
 	}
 
 	// Retrieves DB_URI environment variable.
@@ -63,7 +63,7 @@ func constructConfigPath() error {
 		return fmt.Errorf("Failed to get home directory: %w", err)
 	}
 
-	configPath = filepath.Join(homeDir, ".tday")
+	configPath = filepath.Join(homeDir, ".td")
 
 	return nil
 }

@@ -8,8 +8,8 @@ package tasks
 import (
 	"time"
 
-	"github.com/yuriongit/tday/internal/app"
-	"github.com/yuriongit/tday/internal/domain"
+	"github.com/yuriongit/td/internal/app"
+	"github.com/yuriongit/td/internal/domain"
 )
 
 // newTask instantiates a new Task struct.

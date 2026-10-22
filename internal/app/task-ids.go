@@ -7,7 +7,7 @@ package app
 import (
 	"uuid"
 
-	"github.com/yuriongit/tday/internal/domain"
+	"github.com/yuriongit/td/internal/domain"
 )
 
 /*

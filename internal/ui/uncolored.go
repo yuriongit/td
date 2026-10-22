@@ -1,12 +1,12 @@
 /*
-Package ui provides the UI for TDay.
+Package ui provides the UI for td.
 */
 package ui
 
 import (
 	"fmt"
 
-	"github.com/yuriongit/tday/internal/domain"
+	"github.com/yuriongit/td/internal/domain"
 )
 
 /*

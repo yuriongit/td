@@ -1,5 +1,5 @@
 /*
-Package cmd holds all of TDay's commands.
+Package cmd holds all of td's commands.
 
 Copyright © 2026 Yuri Okeren <yuri.dev44@outlook.com>
 */
@@ -10,25 +10,25 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	app "github.com/yuriongit/tday/internal/app"
-	"github.com/yuriongit/tday/internal/ui"
+	app "github.com/yuriongit/td/internal/app"
+	"github.com/yuriongit/td/internal/ui"
 )
 
 var globalApp *app.App
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "tday",
+	Use:   "td",
 	Short: `My personal task-managing CLI tool`,
-	Long: `TDay: A personal task-managing CLI tool for keep tracking of what I need
+	Long: `td: A personal task-managing CLI tool for keep tracking of what I need
 done for the day. It's quick, feather-weight, and simply straightforward.
 
-TDay is meant for me to manage my tasks in a manner as simple and as 
+td is meant for me to manage my tasks in a manner as simple and as 
 straightfoward as it actually should be.
 
 To get started, run: 
 
-  tday init
+  td init
 
 `,
 	PersistentPreRunE: func(cmd *cobra.Command, _ []string) error {
@@ -74,7 +74,7 @@ func init() {
 	// Cobra supports persistent flags, which, if defined here,
 	// will be global for your application.
 
-	// rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.tday.yaml)")
+	// rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.td.yaml)")
 
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.

@@ -1,4 +1,4 @@
-# TDay - To-Do
+# td - To-Do
 
 ## Features
 
@@ -10,28 +10,28 @@
 
 ## Commands
 
-- [ ] `tday upd`
-- [ ] `tday done`
-- [ ] `tday rm`
+- [ ] `td upd`
+- [ ] `td done`
+- [ ] `td rm`
 
 ---
 
 ### Expiration
 
-- [ ] `tday ls exp`
-- [ ] `tday rm exp {#}`
-- [ ] `tday done exp {#}`
+- [ ] `td ls exp`
+- [ ] `td rm exp {#}`
+- [ ] `td done exp {#}`
 - When expired tasks are outputted: the creation date will be included, TTL,
   alongside it's original due date (`due_at` field). Expired tasks will be
   ordered by it's TTL.
 
 ### Completion
 
-- [ ] `tday done {#}`
-- [ ] `tday ls done`
+- [ ] `td done {#}`
+- [ ] `td ls done`
 
-<!--- [ ] `tday done {# # # #}`-->
+<!--- [ ] `td done {# # # #}`-->
 
 ### Updates
 
-- [ ] `tday upd {#}`
+- [ ] `td upd {#}`

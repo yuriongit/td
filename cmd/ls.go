@@ -1,5 +1,5 @@
 /*
-Package cmd holds all of TDay's commands.
+Package cmd holds all of td's commands.
 
 Copyright © 2026 Yuri Okeren <yuri.dev44@outlook.com>.
 */
@@ -7,7 +7,7 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/yuriongit/tday/internal/tasks"
+	"github.com/yuriongit/td/internal/tasks"
 )
 
 // lsCmd represents the ls command

@@ -14,9 +14,9 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/joho/godotenv"
-	"github.com/yuriongit/tday/internal/cnf"
-	"github.com/yuriongit/tday/internal/domain"
-	"github.com/yuriongit/tday/internal/ui"
+	"github.com/yuriongit/td/internal/cnf"
+	"github.com/yuriongit/td/internal/domain"
+	"github.com/yuriongit/td/internal/ui"
 )
 
 const (

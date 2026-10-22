@@ -8,9 +8,9 @@ package tasks
 import (
 	"context"
 
-	"github.com/yuriongit/tday/internal/app"
-	"github.com/yuriongit/tday/internal/domain"
-	"github.com/yuriongit/tday/internal/ui"
+	"github.com/yuriongit/td/internal/app"
+	"github.com/yuriongit/td/internal/domain"
+	"github.com/yuriongit/td/internal/ui"
 )
 
 // Remove removes a task by ID.

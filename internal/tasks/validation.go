@@ -8,7 +8,7 @@ package tasks
 import (
 	"fmt"
 
-	"github.com/yuriongit/tday/internal/domain"
+	"github.com/yuriongit/td/internal/domain"
 )
 
 func validateID(id domain.ID) error {

@@ -1,5 +1,5 @@
 /*
-Package cmd holds all of TDay's commands.
+Package cmd holds all of td's commands.
 
 Copyright © 2026 Yuri Okeren <yuri.dev44@outlook.com>
 */
@@ -9,8 +9,8 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"github.com/yuriongit/tday/internal/domain"
-	"github.com/yuriongit/tday/internal/tasks"
+	"github.com/yuriongit/td/internal/domain"
+	"github.com/yuriongit/td/internal/tasks"
 )
 
 // newCmd represents the new command.

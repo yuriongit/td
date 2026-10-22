@@ -1,11 +1,11 @@
 /*
-Package cmd holds all of TDay's commands.
+Package cmd holds all of td's commands.
 
 Copyright © 2026 Yuri Okeren <yuri.dev44@outlook.com>.
 */
 package cmd
 
-import app "github.com/yuriongit/tday/internal/app"
+import app "github.com/yuriongit/td/internal/app"
 
 var application *app.App
 
